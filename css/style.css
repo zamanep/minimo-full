@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+header{    
+width: 90%;  
+display: flex;
+justify-content: space-between;  
+margin: auto;    
+margin-top: 50px;
+}
+.logo{    
+
+}
+.logo img{
+
+}
+.menu{
+    
+}
+.menu ul{
+list-style: none;
+display: flex;
+justify-content: end;
+flex-wrap: wrap;
+
+}
+.menu ul li{  
+        
+
+}
+.menu ul li a{    
+text-transform: uppercase;    
+color: #626262;    
+text-decoration: none;    
+margin-left: 100px;
+font-family: 'Playfair Display', serif;
+}
+.banner{
+
+width: 90%;
+margin: auto;
+margin-top: 70px;
+}
+.banner img{
+width: 100%;
+}
+
+.photodiary{
+    width: 76%;
+    margin:70px auto;
+}
+.photodiary h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-bottom: 20px;
+
+}
+.photodiary h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    color: #626262;
+    margin-bottom: 20px;
+    font-weight: 250;
+
+}
+.photodiary p{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    text-align: justify;
+    color: #626262;
+    margin-bottom: 20px;
+
+}
+.photodiary a{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: #b4ad9e;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.lifestyle{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    width: 47%;
+    margin-bottom: 70px;
+}
+.item img{
+    
+width: 100%;
+}
+.item a{
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: 300;
+    color: #b4ad9e;
+    margin: 30px 0 0;
+    text-transform: uppercase;
+}
+.item h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 33px;
+    text-align: left;
+    color: #626262;
+    font-weight: 200;
+    margin: 20px 0;
+}
+.item p{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    text-align: justify;
+    color: #626262;
+    margin: 30px 0px;
+}
+
+   
+.signup{
+
+background: #f0f0f0;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 100px;
+
+height: 320px;
+}
+.signup_content{
+    width: 370px;
+    position: relative;
+}
+
+.signup_content h1{
+    
+color: #626262;
+    
+font-size: 30px;
+    
+margin: 0px 0;
+    
+text-transform: capitalize;
+    
+margin-bottom: 80px;
+}
+.signup_content input{
+    
+border: none;
+    
+background: no-repeat;
+    
+border-bottom: 1px solid;
+    
+width: 364px;
+    
+padding: 6px 0px 10px 0px;
+    
+font-size: 15px;
+}
+.send{
+
+}
+.send img{
+    
+position: absolute;
+    
+right: 0;
+    
+bottom: 0;
+}
+
+.signup_content input:focus{
+    outline: none;
+}
+
+
+.button{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button {
+    padding: 20px 30px;
+    background: transparent;
+    border: 1px solid #707070 ;
+    font-size: 18px;
+
+}
+
+
+footer{
+    background-color: #f0f0f0;
+    width: 100%;
+    padding: 30px 0;
+}
+.footer_wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.term{
+
+}
+.term ul{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+}
+.term ul li{
+}
+.term ul li a{
+    color: #3d3d3d;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 15px;
+
+}
+.social_icon{
+}
+.social_icon ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+
+}
+.social_icon ul li{
+
+}
+.social_icon ul li a{
+
+    text-decoration: none;
+    margin-left: 15px;
+    color:#3d3d3d ;
+}
